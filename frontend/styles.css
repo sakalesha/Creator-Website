@@ -1,0 +1,235 @@
+*{
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 100px;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-section {
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.login-left {
+    max-width: 300px;
+    text-align: center;
+}
+
+/* .login-left h1 .signUp-options h1 {
+    font-size: 40px;
+} */
+
+.login-left h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* .login-left p {
+    font-size: 15px;
+    margin: 0;
+} */
+
+.login-left p {
+    font-size: 14px;
+    color: #666;
+}
+
+.login-right { /* new */
+    max-width: 400px;
+    flex: 1;
+}
+
+.login-right label {
+    font-weight: bold;
+    font-size: 13px;
+    display: block; /* To position the label above the input field naturally */
+    margin-bottom: 8px;
+}
+
+.login-right input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none; /* used to remove the default browser outline (typically a blue or dotted border) */
+    transition: all 0.3s ease; 
+    /* all--> Specifies that all animatable properties (e.g., color, border-color, transform, opacity, etc.) will have the same transition effect. */
+    /* 0.3s --> duration of the transition */
+    /* ease --> This specifies the timing function, which determines how the speed of the transition progresses over time. */
+    /* ease --> starts slow, speeds up, and then slows down toward the end */
+}
+
+.login-right input:focus {
+    border-color: #6200ea;
+    box-shadow: 0 0 5px rgba(98, 0, 234, 0.5);
+    /* box-shadow
+    0 0: The horizontal and vertical offset of the shadow is 0
+    5px: Specifies the blur radius of the shadow
+    rgba(98, 0, 234, 0.5): Defines the color of the shadow
+    98, 0, 234: The RGB values for purple
+    0.5: The alpha value (opacity) */
+}
+
+.login-buttons { /* new */
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* .login-buttons button {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+} removed */
+
+/* .forgot-password-btn {
+    color: black;
+    background-color: white;
+    font-weight: blod;
+    font-size: 16px;
+} */
+
+.forgot-password-btn { 
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+/* .login-btn {
+    color: white;
+    background-color: black;
+    font-weight: blod;
+    font-size: 16px;
+} */
+
+.login-btn {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* .signUp-options {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.signUp-options {
+    text-align: center;
+    padding: 20px;
+}
+
+/* .signUp-options-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+.signUp-options-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* .signUp-options-right button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} */
+
+.signUp-options-right button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+/* .google-btn {
+    background-color: #4285F4;
+    color: white;
+  }
+
+  .google-btn:hover {
+    background-color: #357ae8;
+  }
+
+  .facebook-btn {
+    background-color: #4285F4;
+    color: white;
+  }
+
+  .facebook-btn:hover {
+    background-color: #155dbb;
+  } */
+
+.google-btn {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+}
+
+.google-btn:hover {
+    background-color: #357ae8;
+}
+
+.facebook-btn {
+    background-color: #1877F2;
+    color: white;
+    border: none;
+}
+
+.facebook-btn:hover {
+    background-color: #155dbb;
+}
+
+
+/* .signUp-options-right button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+} */
+
+.signUp-options-right button img {
+    width: 20px;
+    height: 20px;
+}
